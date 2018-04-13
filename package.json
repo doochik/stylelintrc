@@ -1,0 +1,22 @@
+{
+  "name": "@doochik/stylelintrc",
+  "version": "1.0.0",
+  "description": "Shared stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doochik/stylelintrc.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "Aleksei Androsov <doochik@ya.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doochik/stylelintrc/issues"
+  },
+  "homepage": "https://github.com/doochik/stylelintrc#readme"
+}
