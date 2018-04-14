@@ -1,6 +1,6 @@
 {
   "name": "@doochik/stylelint-config-strict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared stylelint config",
   "main": "stylelintrc.js",
   "repository": {
