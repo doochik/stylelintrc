@@ -38,6 +38,7 @@ module.exports = {
         "color-no-invalid-hex": true,
 
         "comment-empty-line-before": null,
+        "comment-no-empty": true,
         "comment-whitespace-inside": "always",
 
         "custom-media-pattern": null,
@@ -64,6 +65,8 @@ module.exports = {
         "declaration-block-trailing-semicolon": "always",
 
         "font-family-name-quotes": "always-where-recommended",
+        "font-family-no-duplicate-names": true,
+        "font-family-no-missing-generic-family-keyword": true,
         "font-weight-notation": "named-where-possible",
 
         "function-blacklist": null,
@@ -93,6 +96,7 @@ module.exports = {
 
         "media-feature-colon-space-after": "always",
         "media-feature-colon-space-before": "never",
+        "media-feature-name-no-unknown": true,
         "media-feature-name-no-vendor-prefix": true,
         "media-feature-parentheses-space-inside": "never",
         "media-feature-range-operator-space-after": "always",
@@ -108,7 +112,9 @@ module.exports = {
         "number-no-trailing-zeros": true,
 
         "no-descending-specificity": null,
+        "no-duplicate-at-import-rules": true,
         "no-duplicate-selectors": true,
+        "no-extra-semicolons": true,
         "no-empty-source": true,
         "no-eol-whitespace": true,
         "no-invalid-double-slash-comments": true,
@@ -405,4 +411,5 @@ module.exports = {
             ]
         ]
     }
-};
+}
+;
