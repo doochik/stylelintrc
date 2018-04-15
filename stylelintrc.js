@@ -154,7 +154,7 @@ module.exports = {
         "at-rule-blacklist": null,
         "at-rule-whitelist": null,
         "at-rule-empty-line-before": [ "always", {
-            "except": [ "blockless-after-blockless" ],
+            "except": [ "blockless-after-blockless", "first-nested" ],
             "ignore": [ "after-comment" ]
         } ],
         "at-rule-no-unknown": [true, {
